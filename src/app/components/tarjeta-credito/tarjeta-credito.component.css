@@ -1,0 +1,25 @@
+.pointer{
+    cursor: pointer;
+}
+.green-icon{
+    color:#198754
+}
+
+.red-icon{
+    color: #dc3545;
+}
+
+.input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .input-icon.password {
+    left: unset;
+    right: 12px;
+  }
